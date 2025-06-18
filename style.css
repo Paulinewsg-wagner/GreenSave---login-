@@ -1,0 +1,118 @@
+
+/* Estilos Gerais */
+body {
+    background-color: #f8f9fc;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Bolas de fundo (Ellipses) */
+.background-ellipse {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(205, 202, 231, 0.4);
+    filter: blur(2px);
+    z-index: -1;
+}
+
+
+
+/* Container Principal */
+.login-container {
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Card do Formulário */
+.card {
+    border: none;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Tipografia */
+.poppins-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #593F71;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    color: #593F71;
+}
+
+/* Campos do Formulário */
+.form-control {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+/* Botões */
+.btn-custom {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Botão Primário (Enviar) */
+.bg-button {
+    background-color: #347355;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    padding: 10px 0;
+}
+
+.bg-button:hover {
+    background-color: #2a5d46;
+    color: white;
+}
+
+/* Botão Secundário (Cancelar) */
+.bg-button2 {
+    background-color: #71637E;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    padding: 10px 0;
+}
+
+.bg-button2:hover {
+    background-color: #5d5269;
+    color: white;
+}
+
+/* Imagem ajustada para não cortar */
+.login-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+
+/* Mensagens de Validação */
+.invalid-feedback {
+    color: #e74a3b;
+    font-size: 0.8rem;
+}
+
+.is-invalid {
+    border-color: #e74a3b;
+}
+
+/* Social buttons container */
+.social-buttons {
+    max-width: 80%;
+    margin: 0 auto;
+}
